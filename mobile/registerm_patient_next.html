@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="览海在线健康管理有限公司是国内率先专注于“移动智慧医疗”服务的新型O2O高新技术企业，自主完成软硬件产品开发、生产、销售的新型互联网企业，依托于线下国际连锁私立医疗和体检机构的优质医疗资源，以及新型的互联网健康商业保险相结合，探索医疗产业线上线下相结合，以及金融和产业相结合，智能穿戴医疗硬件和云服务相结合的产业化应用研究先行者之一。" />
+        <meta name="keywords" content="览海在线健康,上海览海在线,览海健康管理,览海在线,我有医生,健康管理,健康,医疗,移动" />
+        <meta name="viewport" content="height = device-height ,width = device-width ,initial-scale = 1.0,minimum-scale = 1.0,maximum-scale = 1.0,user-scalable = no" />
+        <title>我有医生</title>
+        <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/common_wap.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/public.js"></script>
+    </head>
+
+    <body class="bg-gray">
+        <!--头部-->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                    <a class="navbar-brand" href="wap.html"><img src="http://img1.healthdoc.cn/c/51/3e/513e66b805d245be355833b00b35b161.png" alt=""><span>我有医生</span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="wap.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="registerm_personal_begin.html">免费问诊</a>
+                        </li>
+                        <li class="active">
+                            <a href="registerm_patient_begin.html">患者报道</a>
+                        </li>
+                        <li>
+                            <a href="registerm_company_begin.html">企业专享</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div class="sliderm-page">
+            <div style="margin-top: 30px;">
+                <div class="login">
+                    <div class="header">
+                        <div class="switch">
+                            <h2 class="textcenter">患者报到</h2>
+                        </div>
+                        <!--手机版错误信息提示语-->
+                        <div class="col-xs-12 login-div">
+                            <div class="index-error"></div>
+                        </div>
+                    </div>
+                    <!--注册-->
+                    <div class="web_register web">
+                        <div class="register_form">
+                            <form action="" name="registerform" accept-charset="utf-8" id="register_form" method="post">
+                                <div class="col-xs-12 login-div" style="padding-bottom: 0px;">
+                                    <h4 class="f16">绑定"我有医生"APP账号领取服务:</h4>
+                                </div>
+                                <div class="col-xs-12 login-div">
+                                    <input type="text" name="tel" class="form-control inputstyle" placeholder="请输入手机号码!" />
+                                </div>
+                                <div class="col-xs-12 login-div1">
+                                    <input type="text" name="yzh" class="form-control inputstyle input-yz" placeholder="请填入您手机收到的验证码" />
+                                    <input type="button" href="javascript:void(0);" class="btn btn-color get" onclick="getPIN(this);" value="获取验证码" />
+                                </div>
+                                <div class="col-xs-12 login-div checkbox-img">
+                                    <a class="unchecked checked"></a>
+                                    <input type="checkbox" checked="checked" />
+                                    <span><a href="<?php echo Url::to('/user/registeragreement')?>" target="_self">我同意《用户注册协议》</a></span>
+                                </div>
+                                <div class="col-xs-12 login-div">
+                                    <input type="button" href="javascript:void(0);" class="btn btn-color next-step" value="下一步" onclick="register();" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--注册end-->
+                </div>
+            </div>
+        </div>
+        <!--备案-->
+        <div class="footer web-footer">
+            <p>Copyright®2016 LH. Ltd All Rights Reserved.</p>
+            
+        </div>
+        <script type="text/javascript">
+            function getPIN(val) {
+                var t = $(".web_register").find("input[name=tel]");
+                if(isTel(t) == true) {
+                    /*$.ajax({
+                    	type : "post",
+                    	url : "${webroot}/system/signin",
+                    	data : {
+                    		username : username,
+                    		passwd : passwd
+                    	},
+                    	async : false,
+                    	cache : false,
+                    	dataType : "json",
+                    	success : function(data) {
+                    		if (data.result == '0') {
+                    			window.location = "${webroot}/home";
+                    			countTime(val);
+                    		} else if (data.result == '1') {
+                    			$(".index-error").html(data.msg).show().fadeOut(2000);
+                    		}
+                    	},
+                    	error : function() {
+                    		$(".index-error").html("该号码已经注册！").show().fadeOut(2000);
+                    	}
+                    });*/
+                }
+            }
+            /*注册下一步*/
+            function register() {
+                var t = $(".web_register").find("input[name=tel]");
+                var c = $(".web_register").find("input[name=yzh]");
+                if(isTel(t) == true && isNull(c, "验证码") == true) {
+                    registerform.submit();
+                    window.location.href = "registerm_patient_password.html";
+                }
+                /*$.ajax({
+                	type : "post",
+                	url : "${webroot}/system/signin",
+                	data : {
+                		username : username,
+                		passwd : passwd
+                	},
+                	async : false,
+                	cache : false,
+                	dataType : "json",
+                	success : function(data) {
+                		if (data.result == '0') {
+                			window.location = "${webroot}/home";
+                		} else if (data.result == '1') {
+                			$("#logError").html(data.msg);
+                			$("#logError").show();
+                		}
+                	},
+                	error : function() {
+                		$("#logError").html("该号码已经注册！");
+                		$("#logError").show();
+                	}
+                });*/
+            }
+        </script>
+    </body>
+
+</html>

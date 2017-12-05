@@ -1,0 +1,282 @@
+.section .container {
+    width: 1200px;
+}
+
+.section .title {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section .desc {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 22px;
+}
+
+.section1 {
+    height: 700px;
+    background: url(http://img1.healthdoc.cn/c/45/da/45dab6274019439ef2f10a71c36b3fa2.png) bottom right no-repeat;
+    background-size: cover;
+}
+
+.section1 .content {
+    width: 730px;
+    text-align: center;
+}
+
+.section1 .content > img {
+    margin-top: 204px;
+    margin-bottom: 26px;
+    height: 90px;
+
+}
+
+.section1 .content > p {
+    font-size: 32px;
+    color: #929292;
+    margin-bottom: 48px;
+}
+
+.section1 .download {
+    font-size: 0;
+}
+
+.section1 .download > div {
+    vertical-align: top;
+    display: inline-block;
+    height: 110px;
+}
+
+.section1 .download a {
+    display: block;
+    width: 160px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+    background: #fff;
+    font-size: 0;
+    color: #3cbde6;
+    text-decoration: none;
+}
+
+.section1 .download a:hover {
+    background: #3cbde6;
+    color: #fff;
+}
+
+.section1 .download a img {
+    margin-right: 8px;
+}
+
+.section1 .download a span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.section1 .download a.ios span {
+    background: url(http://img1.healthdoc.cn/c/11/4c/114cdfcc5fd8bf005eee6b56acfd9133.png) left center no-repeat;
+}
+
+.section1 .download a.android span {
+    background: url(http://img1.healthdoc.cn/c/eb/c1/ebc118def445f456a270b675b4d9af1e.png) left center no-repeat;
+}
+
+.section1 .download .ios:hover span {
+    background: url(http://dl.stage.healthdoc.cn/c/f4/7c/f47c740faf6a270dd0087f501497907a.png) left center no-repeat;
+}
+
+.section1 .download .android:hover span {
+    background: url(http://dl.stage.healthdoc.cn/c/34/9e/349e53f4bac239dd98327f491f20efab.png) left center no-repeat;
+}
+
+.section1 .download a:first-child {
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+
+.section2 {
+    padding: 56px 0;
+}
+
+.section2 .col-md-3 {
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+.section2 img {
+    margin-bottom: 15px;
+}
+
+.section2 .col-md-3 > p {
+    font-size: 14px;
+    color: #999999;
+    line-height: 24px;
+    padding: 0 16px;
+}
+
+.section2 .col-md-3 > .service {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.section3 {
+    height: 700px;
+    background: url(http://img1.healthdoc.cn/c/40/64/406416529b62286a5e128161044f3fe2.png) bottom right no-repeat;
+    background-size: cover;
+}
+
+.section3 .container {
+    height: 100%;
+}
+
+.section3 .container > div {
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.section3 .pic img {
+    max-height: 700px;
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+}
+
+.section3 .content {
+    padding-left: 48px;
+}
+
+.section3 .title {
+    text-align: left;
+    margin-top: 230px;
+    margin-bottom: 35px;
+}
+
+.section3 .desc {
+    text-align: left;
+    margin-bottom: 48px;
+    color: #666;
+}
+
+.section3 .inquiry > div {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.section3 .inquiry span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 12px;
+}
+
+.section4 {
+    padding: 25px 0 36px;
+}
+
+.section4 .col {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.section4 .col img {
+    height: 132px;
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.section4 .col > p {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+
+.section5 {
+    background: url(http://img1.healthdoc.cn/c/15/47/15475a0ee130d8c865d630d214c1576f.png) bottom right no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    height: 700px;
+    text-align: center;
+}
+
+.section5 img {
+    width: 924px;
+}
+
+.section5 .desc {
+    margin-bottom: 110px;
+    color: #666;
+}
+
+.section6 {
+    padding: 35px 0 42px;
+}
+
+.section6 .container {
+    text-align: center;
+}
+
+.section6 .col-md-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.section6 img {
+    margin-bottom: 16px;
+}
+
+.section6 .name {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.section6 .major {
+    font-size: 14px;
+    color: #999999;
+}
+
+.section6 .summary {
+    font-size: 14px;
+    color: #999999;
+    line-height: 22px;
+    padding: 0 20px;
+}
+
+.section7 {
+    background: url(http://img1.healthdoc.cn/c/20/15/2015dd95694bf1180c2e447d9158c329.png) bottom right no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.section7 .content {
+    margin-left: 60px;
+}
+
+.section7 .content > p {
+    width: 26%;
+}
+
+.section7 .content .title {
+    margin: 300px 0 35px;
+    text-align: left;
+    color: #333333;
+}
+
+.section7 .content .desc {
+    text-align: left;
+    color: #666;
+}
+

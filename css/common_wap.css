@@ -1,0 +1,297 @@
+body {
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 640px;
+}
+
+body,
+body * {
+    font-family: PingFangSC-Light, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    background: #fff;
+    box-shadow: 0 1px 2px 0px rgba(100, 100, 100, 0.1);
+}
+
+#navbar {
+    text-align: center;
+    width: 240px;
+    position: absolute;
+    right: 15px;
+    border: 1px solid #f9f9f9;
+    background: #fff;
+}
+
+.navbar-nav{
+    margin: 0 -15px;
+}
+
+.nav>li{
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.navbar .container {
+    max-width: 640px;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #eee;
+    padding: 6px;
+    margin-top: 11px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #999;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #3cbde6;
+}
+
+.navbar-brand> span {
+    font-size: 16px;
+    color: #3cbde6;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+    margin-right: 6px;
+    height: 24px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    color: #666666;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 16px 15px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: transparent;
+    color: #3cbde6;
+;
+}
+
+.footer {
+    padding: 18px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+/*登录注册样式*/
+
+.bg-gray {
+    background: #f6f9fb;
+    text-align: center;
+}
+
+.login {
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: none;
+    position: relative;
+}
+
+.header {
+    height: 80px;
+    position: relative;
+    font-family: "Microsoft Yahei";
+}
+
+.header .switch {
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+.header .login-div{
+    position: absolute;
+    top: 100px;
+    z-index: 1000;
+}
+
+.switch h2 {
+    margin-top: 50px;
+}
+
+.btn-color,
+.btn-color:link,
+.btn-color:active {
+    background: #36c2d9;
+    color: #fff;
+    width: 100%;
+    margin: 0px auto 20px;
+    outline: 0;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.btn-color.disabled,
+.btn-color.disabled:hover {
+    background: #C3C3C3;
+}
+
+.btn-color:hover {
+    color: #fff;
+    background: #33b6cc;
+}
+
+.inputstyle {
+    width: 100%;
+    height: 45px;
+}
+
+.input-yz {
+    width: 63%;
+    display: inline;
+    float: left;
+    text-indent: 0px;
+}
+
+.web_register {
+    padding-top: 30px;
+}
+
+.web_register p img {
+    margin: auto;
+    display: block;
+}
+
+.login-div {
+    padding-bottom: 35px;
+    margin: 0 auto;
+    float: none;
+    text-align: left;
+}
+
+.login-div1 {
+    padding-bottom: 70px;
+    margin: 0 auto;
+    float: none;
+    text-align: left;
+}
+
+.login-div a {
+    cursor: pointer;
+}
+
+.get {
+    float: right;
+    cursor: pointer;
+    width: 33%;
+    margin: 0px auto;
+    color: #fff;
+}
+
+.get:active,
+.get:hover,
+.get:visited {
+    float: right;
+    width: 33%;
+    margin: 0px auto;
+}
+
+.hover,
+.hover:active,
+.hover:hover,
+.hover:visited {
+    background: #ededed;
+    color: #8e8e8e;
+}
+
+.unchecked {
+    background: url(http://img1.healthdoc.cn/c/c1/1b/c11b50d6a17875bc586b739709811b81.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    top: -1px;
+    position: absolute;
+}
+
+.checked {
+    background: url(http://img1.healthdoc.cn/c/9d/7f/9d7fa6294bdbaf738eeb0aa8901611bb.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    top: -1px;
+    position: absolute;
+}
+
+.checkbox-img input {
+    display: none;
+}
+
+.checkbox-img span {
+    margin-left: 28px;
+}
+
+.checkbox-img span:hover {
+    cursor: pointer;
+}
+
+.index-error {
+    display: none;
+    color: #fff;
+    font-size: 16px;
+    background: rgba(33, 33, 33, 0.50);
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    line-height: 45px;
+    height: 45px;
+}
+
+
+/*注册成功下载样式*/
+
+.success-img {
+    width: 110px;
+}
+
+.success {
+    color: #37C2D9;
+}
+
+.mobile-down {
+    margin-top: 50px;
+}
+
+.mobile-down a {
+    width: 70%;
+    max-width: 280px;
+    height: 56px;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 56px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #30caf0;
+    margin-top: 30px;
+}
+

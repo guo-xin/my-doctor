@@ -1,0 +1,293 @@
+/*.section .container {
+	width: 1200px;
+}*/
+
+.section {
+    position: relative;
+}
+
+.section .title {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section .desc {
+    font-size: 14px;
+    color: #999999;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 36px;
+}
+
+.section1 {
+    background: url(http://img1.healthdoc.cn/c/78/68/78684efb169ab14af3ad5f1509c7b5e5.png) center no-repeat;
+    background-size: cover;
+}
+
+.section1 .content {
+    /*width: 730px;*/
+    text-align: center;
+    padding: 0 40px;
+}
+
+.section1 .content > img {
+    margin-top: 100px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.section1 .content > p {
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    margin-bottom: 24px;
+}
+
+.section1 .download {
+    font-size: 0;
+}
+
+.section1 .download > div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.section1 .download a {
+    display: block;
+    width: 128px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 16px;
+    background: #3cbde6;
+    font-size: 12px;
+    color: #fff;
+}
+
+.section1 .download a img {
+    margin-right: 8px;
+    height: 18px;
+}
+
+.section1 .download a span {
+    vertical-align: middle;
+}
+
+.section1 .download a:first-child {
+    margin-bottom: 26px;
+}
+
+.section1 .pic{
+    overflow: hidden;
+    text-align: center;
+    margin: 48px -15px 0;
+    vertical-align: top;
+}
+
+.section1 .pic img{
+    width: 100%
+}
+
+.section2 {
+    padding: 56px 0;
+}
+
+.section2 .col-md-6 {
+    text-align: center;
+}
+
+.section2 .top {
+    margin-bottom: 32px;
+}
+
+.section2 img {
+    margin-bottom: 12px;
+    height: 72px;
+}
+
+.section2 .col-md-6 > p {
+    font-size: 12px;
+    color: #999999;
+    line-height: 24px;
+    padding: 0 12px;
+}
+
+.section2 .col-md-6 > .service {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.section3 {
+    background: url(http://img1.healthdoc.cn/c/77/e7/77e7d1940347c3f4a6e625ee4f6d6e7a.png) bottom right no-repeat;
+    background-size: cover;
+}
+
+.section3 .container > div {
+    position: relative;
+}
+
+.section3 .pic img {
+    position: relative;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.section3 .title {
+    margin-top: 80px;
+    margin-bottom: 18px;
+}
+
+.section3 .desc {
+    margin-bottom: 48px;
+    color: #666;
+}
+
+.section3 .inquiry {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.section3 .inquiry > div {
+    display: inline-block;
+}
+
+.section3 .inquiry > div:first-child {
+    margin-right: 48px;
+}
+
+.section3 .inquiry span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 12px;
+}
+
+.section3 .inquiry img {
+    height: 56px;
+}
+
+.section4 {
+    padding: 80px 0 36px;
+}
+
+.section4 .row {
+    margin: 0;
+}
+
+.section4 .col {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section4 .col img {
+    height: 90px;
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.section4 .col > p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.section4 .desc {
+    margin-bottom: 80px;
+}
+
+.section5 {
+    background: url(http://img1.healthdoc.cn/c/cd/88/cd885c0e17b0b45f95748e3557b48c5e.png) bottom right no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    height: 700px;
+    text-align: center;
+}
+
+.section5 img {
+    width: 96%;
+}
+
+.section5 .desc {
+    margin-bottom: 160px;
+    color: #666;
+}
+
+.section6 {
+    padding: 64px 0 42px;
+}
+
+.section6 .container {
+    text-align: left;
+}
+
+.section6 .row{
+    margin: 0 24px;
+}
+
+.section6 .col-md-12{
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.section6 .pic {
+    vertical-align: top;
+    width: 30%;
+    float: left;
+}
+
+.section6 .pic img{
+    max-width: 100%;
+}
+
+.section6 .info{
+    display: inline-block;
+    padding-left: 20px;
+    width: 69%;
+}
+
+.section6 .name {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.section6 .major {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 6px;
+}
+
+.section6 .summary {
+    font-size: 12px;
+    color: #999999;
+    line-height: 22px;
+}
+
+.section7 > img {
+    width: 100%;
+}
+
+.section7 .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 32px 0 12px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+
+.section7 .desc{
+    margin-bottom: 0;
+    color: #666;
+}
+
+
+
+
